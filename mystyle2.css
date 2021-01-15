@@ -1,0 +1,172 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 7%;
+    margin-top: -1%;
+    z-index: 10;
+}
+
+#navbar li{
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: 800;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 6%;
+}
+
+#first{
+    margin-left: 20%;
+}
+
+#landing-section{
+    background: url("images/banner.jpg") fixed;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+.navbar-link:link, .navbar-link:active, .navbar-link:visited{
+    color: #033080;
+}
+
+.navbar-link:hover{
+    color: teal;
+    font-weight: 900;
+}
+
+#title{
+    width: 50%;
+    float:left;
+}
+
+#title{
+    text-align: center;
+    padding: 7% 0% 0% 0%;
+    color: #ffffff;
+    text-shadow: 4px 4px 5px black;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+#bugs-img{
+    float: right;
+    align-content: center;
+    background-color: transparent;
+}
+
+#bugs-img > img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20%;
+    position: relative;
+    border-radius: 60%;
+    border: 1px solid darkslateblue;
+    box-shadow: 1px 1px 2px darkslateblue;
+}
+
+.line{
+    width: 60%;
+    margin-top: -2%;
+}
+
+.button{
+    margin-top: 4%;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px #021b45;
+    transition-duration: 0.4s;
+    padding: 15px 32px 28px 32px;
+}
+
+.button:hover{
+    color:darkblue;
+    background-color:white;
+}
+
+#description{
+    margin-top: 4%;
+}
+
+#team{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    align-content: center;
+    text-align: center;
+    background-color: thistle;
+}
+
+#team-table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.15);
+    
+}
+
+#team-table td, #team-table th{
+    text-align: left;
+    width: 30%;
+    padding: 12px 15px;
+}
+
+#team-table th{
+    background-color: slateblue;
+    color: white;
+}
+
+#team-table tr{
+    border-bottom: 1px solid rgba(106, 90, 205, 0.2);
+}
+
+.highlighted{
+    background-color: #f3f3f3;
+}
+
+.row{
+    background-color: white;
+}
+
+#contactos{
+    background-color: lightcoral;
+    min-height: 150px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -1%;
+    color: lightgoldenrodyellow;
+}
+
+#morada{
+    float:left;
+}
+
+.column{
+    width: 33.3%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#email{
+    float: right;
+}
+
+#telefone{
+    float: right;
+}
